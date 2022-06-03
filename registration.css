@@ -1,0 +1,50 @@
+body{
+    font-size: 12px;
+    font: 'Fira Sans', sans-serif;
+}
+
+div{
+    width: 800px;
+    height: 900px;
+    margin: 60px auto;
+    background-image: url(image/Registration\ Form.png);
+}
+
+form{
+    padding: 100px 0 0 40px;
+}
+
+td{
+    height: 60px;
+}
+
+#button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(121, 121, 8);
+    background-color: rgb(121, 121, 8);
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#button:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: rgb(121, 121, 8);
+}
+
+#name, #surname, #email, #password {
+    width: 175px;
+    height: 25px;
+    border-radius: 1px solid rgb(121, 121, 8);
+    color: black;
+    border-radius: 3px;
+    padding: 0 0 0 2px;
+
+}
+
+span{
+    color: #b00;
+    font-weight: bold;
+}

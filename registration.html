@@ -1,0 +1,71 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Registration Form">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="registration.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-1 p-5">
+        <form action="" method="GET" name="form1">
+            <table style="width: 570px; border: 1px;">
+                <tr>
+                    <td style="width: 150px;">Name:</td>
+                    <td style="width: 220px;"><input name="" id="name" type="text"></td>
+                    <td style="width: 200px;"><span id="namewarning"></span></td>
+                </tr>
+                <tr>
+                    <td>Surname:</td>
+                    <td><input name="" id="surname" type="text"></td>
+                    <td><span id="surnamewarning"></span></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input name="" id="birthday" placeholder="dd/mm/yyyy" type="text"></td>
+                    <td><span id="birthdaywarning"></span></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input name="" id="email" type="text"></td>
+                    <td><span id="emailwarning"></span></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input name="" id="password" type="password" title="Should be at least 6 and at most 15 characters long which should contain at least one uppercase letter, one numeric digit, and one special character"></td>
+                    <td><span id="passwordwarning"></span></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><select name="" id="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Interests:</td>
+                    <td><input type="checkbox"> Swim <br>
+                        <input type="checkbox"> Code <br>
+                        <input type="checkbox"> Blogging <br>
+                        <input type="checkbox"> Sports <br>
+                        <input type="checkbox"> Gaming <br>
+                        <input type="checkbox"> Traveling <br>
+                        <input type="checkbox"> Art <br>
+                        <input type="checkbox"> Child Care
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="button" id="button" name="" value="Submit" onclick="process()">  <input type="button" id="button" name="" value="Reset" onclick="resetform()"></td>
+                    <td></td>
+                </tr>              
+            </table>
+        </form>
+    </div>  
+</body>

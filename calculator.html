@@ -1,0 +1,53 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Calculator">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">   
+    <script src="calculator.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-1 p-5">
+        <form action="" name="form2">
+            <table style="width: 540px; border: 1px;">
+                <tr>
+                    <td colspan="3"><input class="screen" style="width: 461px;" type="text" id="result"></td>
+                </tr>
+                <tr>
+                    <td><button type="button" value="7">7</button></td>
+                    <td><button type="button" value="8">8</button></td>
+                    <td><button type="button" value="9">9</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" value="4">4</button></td>
+                    <td><button type="button" value="5">5</button></td>
+                    <td><button type="button" value="6">6</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" value="1">1</button></td>
+                    <td><button type="button" value="2">2</button></td>
+                    <td><button type="button" value="3">3</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" value="0">0</button></td>
+                    <td><button type="button" value=".">.</button></td>
+                    <td><button type="button" value="/">/</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" value="+">+</button></td>
+                    <td><button type="button" value="-">-</button></td>
+                    <td><button type="button" value="*">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="reverseNum()" type="button" value="1/x">1/x</button></td>
+                    <td><button type="button" value="C" id="clear">C</button></td>
+                    <td><button type="button" value="=" id="calculate">=</button></td>
+                </tr>             
+            </table>
+        </form>
+    </div>  
+</body>
